@@ -5,3 +5,15 @@ What happens when you initialize a repository? Why do you need to do it?
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 
 	The staging area is the midway point between the working directory and commits. The repository is the file on which the staging area works on. This offers value because it allows the user to make changes on the repository that are not permanent.
+
+How can you use the staging area to make sure you have one commit per logical change?
+
+	The staging area allows you to check your changes before make them permanent.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+	Branches are helpful when you want to change your file in experimental ways. Thus, you would keep a master version of the file, but be able to fiddle around with other, experimental, versions.
+
+How do the diagrams help you visualize the branch structure?
+
+	Diagrams provide a visual structure of the tree and allow the programmer to see how the commits are related to one another during checkout. It helps you also see where you may enter detached head state and how you can create a new branch there.
